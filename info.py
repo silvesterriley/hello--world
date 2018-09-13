@@ -1,21 +1,15 @@
-print("name")
-print("age")
-print("gender")
-print("email")
-print("phone number")
-print("work place")
-print("sibling")
-print("place")
-print("years")
-print("hobbies")
-print("type of music")
-print("fiancee")
-print("number of cars")
-print("host")
-print("bettin")
-print("fire flake")
-print("getting dunked")
-print("sparxx")
-print("phantom")
-print("worse noise escalade")
-print("skycraper")
+message="hello python"
+print(message)
+
+#variables to hold my names
+firstname="Silvester"
+middlename="Muthiri"
+lastname="Marubu"
+Age="24"
+
+
+#i want to print my details
+print("My first name is", firstname)
+print("My middle name is" ,middlename)
+print("My last name is" ,lastname)
+print(Age,"years old")
