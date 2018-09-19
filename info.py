@@ -44,13 +44,23 @@ else:
 
     
 #test for adult minor 
-Age=int(input("enter your age \n"))
-if(Age>18):
-    print("if you are {0} years old then you ar an adult".format(Age))
+Age=7
+while(Age!=-7):
+    Age=int(input("enter your age or -7 to exit \n"))
+    if(Age>=18):
+        print("if you are {0} years old then you ar an adult".format(Age))
+    else:
+        print("if you are {0} years old then you ar a Minor".format(Age))
+
+
+
+
+#test for odd and even
+number=int(input("enter any number \n"))
+if(number%2 ==0):
+    print("{0} is even number".format(number))
 else:
-    print("if you are {0} years old then you ar a Minor".format(Age))
-
-
+    print("{0} is odd number".format(number))
 
 
 #Area of rectangle
