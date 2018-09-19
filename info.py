@@ -22,7 +22,7 @@ print("My first name is {0} and My middle name is {1} and last name is {2} {3} y
 print("My first name is %s and My middle name is %s and last name is %s %d years of age" %(firstname,middlename,lastname,Age))
 
 #simple calculation 
-a=6
+a=64
 b=10
 c=690
 total = a+b+c
@@ -36,13 +36,21 @@ print("the remainder of {0} divided by {1}  is = {2}" .format(b, a, remainder))
 
 #test for largest
 if(a<b):
-    print("{0] is largest".format(b))
+    print("{0} is largest".format(b))
 else:
-    print("{0] is largest".format(a))
+    print("{0} is largest".format(a))
 
 
 
     
+#test for adult minor 
+Age=int(input("enter your age \n"))
+if(Age>18):
+    print("if you are {0} years old then you ar an adult".format(Age))
+else:
+    print("if you are {0} years old then you ar a Minor".format(Age))
+
+
 
 
 #Area of rectangle
