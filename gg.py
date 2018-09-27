@@ -39,6 +39,15 @@ if(a<b):
     print("{0} is largest".format(b))
 else:
     print("{0} is largest".format(a))
+ #test for adult minor 
+Age=20
+while(Age!=18):
+    Age=int(input("enter your age or 27 to exit \n"))
+    if(Age>=18):
+        print("if you are {0} years old then you are able to vote".format(Age))
+    else:
+        print("if you are {0} years old then you are not able to vote".format(Age))
+
 
 
 
